@@ -35,6 +35,35 @@ export default function App() {
       </div>
 
       <div className="mt-16 md:mt-32 p-10">
+        <div className="text-center md:mx-24 mx-8">
+          <p className="text-2xl">Moving Foward!</p>
+          <p className="mt-4">Anchor has ended! You won't be able to ship your logo directly but we have some fun new events that use this guide.</p>
+          <p className="mt-2">You can still use the guide bellow for all your designing needs, good luck and have fun!</p>
+        </div>
+
+        <div className="mt-12 md:mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 md:mx-24 mx-8 mb-16">
+          <div className="border-4 border-[#B0E298] border-dashed p-6">
+            <p className="text-2xl">Fusering</p>
+            <p className="mt-4">Design a keyring, we'll ship it to you with stickers!</p>
+            <p className="mt-2">You make a logo using the Anchor Guide and then CAD it into a keyring.</p>
+            <div className="mt-8">
+              <a href="https://fusering.hackclub.com" className="px-6 py-2 bg-blue-300 rounded-md submit" target="_blank" rel="noopenner noreferrer">Find out more here!</a>
+            </div>
+            <p className="mt-8">Any more questions? Ask in <a href="https://hackclub.enterprise.slack.com/archives/C098U42PD2A" className="link" target="_blank" rel="noopenner noreferrer">#fusering</a> on the slack!</p>
+          </div>
+          <div className="border-4 border-[#B0E298] border-dashed p-6">
+            <p className="text-2xl">Bento</p>
+            <p className="mt-4">Bento is a Clubs & Individual YSWS where you ship a website that follows our bento style requirements and we ship sushi!</p>
+            <p className="mt-2">If you make a logo for your site with the Anchor Guide and track with lapse you can bump up your sushi reward.</p>
+            <div className="mt-8">
+              <a href="https://bento.hackclub.com/?utm_source=anchor" className="px-6 py-2 bg-blue-300 rounded-md submit" target="_blank" rel="noopenner noreferrer">Find out more here!</a>
+            </div>
+            <p className="mt-8">Any more questions? Ask in <a href="https://hackclub.enterprise.slack.com/archives/C0BNZ0WBTBN" className="link" target="_blank" rel="noopenner noreferrer">#bento</a> on the slack!</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-16 md:mt-32 p-10">
         <div className="flex flex-col justify-center items-center bg-gradient-to-b from-blue-400 to-[#2FBCFD] md:py-10 shadow-xl rounded-xl text-[#011627]">
 
           <div className="flex flex-wrap gap-4 justify-center items-center mt-16 ml-2">
